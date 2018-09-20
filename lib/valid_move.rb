@@ -5,6 +5,8 @@ def valid_move?(board, index)
 
 elsif position.between?(0, 8)
 
+else return true
+
 end
 end
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
